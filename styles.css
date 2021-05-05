@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_title {
+  display: flex;
+}
+.container_input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-style {
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.list_item {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px;
+  background-color: rgb(231, 98, 9);
+  padding: 3px;
+  width: 800px;
+  list-style-type: decimal;
+}
+.list-style {
+  padding: 0px;
+  margin: 0px;
+}
+.completed {
+  text-decoration: inherit;
+  background-color: rgb(150, 240, 177);
+}
